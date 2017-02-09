@@ -1,0 +1,45 @@
+#watch-video {
+  background:url('../images/video-bg.jpg');
+  background-size:cover;
+  height:800px;
+  .center {
+    top:44%;
+    position:relative;
+
+    p {
+      color:#FFF;
+      font-family: $montserrat;
+      font-weight:700;
+      font-size: 40px;
+      letter-spacing: -0.5px;
+    }
+
+  }
+  @media (max-width:1200px) {
+    background-position:50% 50%;
+  }
+  @media (max-width:900px) {
+    height:600px;
+    .center {
+      top:40%;
+      p {
+        font-size:34px;
+        margin-bottom:10px;
+      }
+    }
+  }
+  @media (max-width:600px) {
+    height:380px;
+    background-position:60% 60%;
+    .center {
+      p {
+        font-size:24px;
+        margin-bottom:5px;
+      }
+      img {
+        width:15%;
+      }
+      top:35%;
+    }
+  }
+}

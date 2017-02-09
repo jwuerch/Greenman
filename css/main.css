@@ -26447,6 +26447,9 @@ h4.modal-title {
     color: #A2AF70;
     letter-spacing: 1.5px;
     line-height: 61px; }
+    @media (max-width: 480px) {
+      #meet-the-team-2 h2 {
+        font-size: 36px; } }
   #meet-the-team-2 img {
     border-radius: 16px; }
   #meet-the-team-2 h4 {
@@ -26528,6 +26531,42 @@ h4.modal-title {
   @media (max-width: 767px) {
     .service-modal .img-wrap {
       display: none; } }
+
+#watch-video {
+  background: url("../images/video-bg.jpg");
+  background-size: cover;
+  height: 800px; }
+  #watch-video .center {
+    top: 44%;
+    position: relative; }
+    #watch-video .center p {
+      color: #FFF;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      letter-spacing: -0.5px; }
+  @media (max-width: 1200px) {
+    #watch-video {
+      background-position: 50% 50%; } }
+  @media (max-width: 900px) {
+    #watch-video {
+      height: 600px; }
+      #watch-video .center {
+        top: 40%; }
+        #watch-video .center p {
+          font-size: 34px;
+          margin-bottom: 10px; } }
+  @media (max-width: 600px) {
+    #watch-video {
+      height: 380px;
+      background-position: 60% 60%; }
+      #watch-video .center {
+        top: 35%; }
+        #watch-video .center p {
+          font-size: 24px;
+          margin-bottom: 5px; }
+        #watch-video .center img {
+          width: 15%; } }
 
 body {
   font-family: "Lato", sans-serif;
