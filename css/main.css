@@ -26422,6 +26422,113 @@ h4.modal-title {
     #meet-the-team-1 p {
       font-size: 16px; } }
 
+#logo-carousel {
+  padding: 40px 0; }
+  #logo-carousel img {
+    width: 90%;
+    margin: 0 auto; }
+  #logo-carousel .owl-dots {
+    display: none; }
+  #logo-carousel .teeth {
+    max-width: 85px;
+    max-height: 65px; }
+  #logo-carousel .owl-stage {
+    display: flex;
+    align-items: center; }
+
+#meet-the-team-2 {
+  padding: 60px 0 40px 0;
+  background: rgba(122, 132, 86, 0.2);
+  box-shadow: inset 0 1px 9px 0 rgba(0, 0, 0, 0.15); }
+  #meet-the-team-2 h2 {
+    font-family: "Droid Serif", serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #A2AF70;
+    letter-spacing: 1.5px;
+    line-height: 61px; }
+  #meet-the-team-2 img {
+    border-radius: 16px; }
+  #meet-the-team-2 h4 {
+    font-family: "Droid Serif", serif;
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #494948;
+    margin-bottom: 20px;
+    letter-spacing: 0.75px;
+    line-height: 61px; }
+    #meet-the-team-2 h4:hover {
+      text-decoration: underline;
+      cursor: pointer; }
+  @media (max-width: 991px) {
+    #meet-the-team-2 .owl-prev, #meet-the-team-2 .owl-next {
+      opacity: 1 !important;
+      top: 40%; }
+    #meet-the-team-2 .owl-prev {
+      left: -18px; }
+    #meet-the-team-2 .owl-next {
+      right: -18px; } }
+  #meet-the-team-2 .img-hover {
+    display: inline-block;
+    position: relative; }
+    #meet-the-team-2 .img-hover:hover:before {
+      border-radius: 16px;
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background-color: rgba(0, 0, 0, 0.37); }
+    #meet-the-team-2 .img-hover:hover:after {
+      content: "+";
+      position: absolute;
+      top: 50%;
+      margin-top: -45px;
+      color: white;
+      font-size: 60px;
+      left: 50%;
+      margin-left: -15px;
+      z-index: 11; }
+
+/* Service Modals */
+#services a:hover {
+  text-decoration: none; }
+
+.service-modal .modal-body, .service-modal .modal-header {
+  background: #FFF; }
+
+.service-modal h4 {
+  color: #A2AF70;
+  font-family: "Droid Serif", serif;
+  font-weight: 400; }
+
+.service-modal .modal-header {
+  border-radius: 3px 3px 0px 0px; }
+
+.service-modal .modal-body {
+  border-radius: 0px 0px 3px 3px; }
+
+.service-modal-text p {
+  line-height: 25px;
+  font-size: 16px;
+  margin-bottom: 15px; }
+
+.service-modal img {
+  margin-bottom: 10px; }
+
+.service-modal p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px; }
+
+.service-modal .img-wrap {
+  text-align: center; }
+  @media (max-width: 767px) {
+    .service-modal .img-wrap {
+      display: none; } }
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 16px; }

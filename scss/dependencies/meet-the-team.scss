@@ -55,3 +55,95 @@
     }
   }
 }
+
+#logo-carousel {
+  padding:40px 0;
+  img {
+    width:90%;
+    margin:0 auto;
+
+  }
+
+  .owl-dots {
+    display:none;
+  }
+  .teeth {
+    max-width:85px;
+    max-height:65px;
+  }
+  .owl-stage {
+    display:flex;
+    align-items:center;
+  }
+}
+#meet-the-team-2 {
+  padding:60px 0 40px 0;
+  background: rgba(122,132,86,0.20);
+  box-shadow: inset 0 1px 9px 0 rgba(0,0,0,0.15);
+  h2 {
+    font-family: $droid;
+    font-weight:400;
+    font-size: 48px;
+    color: #A2AF70;
+    letter-spacing: 1.5px;
+    line-height: 61px;
+  }
+  img {
+    border-radius:16px;
+
+  }
+  h4 {
+    font-family: $droid;
+    font-weight:400;
+    margin-top:15px;
+    font-size: 20px;
+    color: #494948;
+    margin-bottom:20px;
+    letter-spacing: 0.75px;
+    line-height: 61px;
+    &:hover {
+      text-decoration:underline;
+      cursor:pointer;
+    }
+  }
+  @media (max-width:991px) {
+    .owl-prev, .owl-next {
+      opacity:1 !important;
+      top:40%;
+    }
+    .owl-prev {
+      left:-18px;
+    }
+    .owl-next {
+      right:-18px;
+    }
+
+  }
+  .img-hover {
+    display: inline-block;
+    position: relative;
+    &:hover:before {
+      border-radius:16px;
+
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background-color: rgba(0, 0, 0, 0.37);
+    }
+    &:hover:after {
+      content: "+";
+      position: absolute;
+      top: 50%;
+      margin-top: -45px;
+      color: white;
+      font-size: 60px;
+      left: 50%;
+      margin-left: -15px;
+      z-index: 11;
+    }
+  }
+}

@@ -8,7 +8,10 @@
   background:#FFF;
 }
 .service-modal h4 {
-  color:#768E44;
+  color:#A2AF70;
+  font-family:$droid;
+  font-weight:400;
+
 }
 .service-modal .modal-header {
   border-radius:3px 3px 0px 0px;
@@ -23,4 +26,14 @@
 }
 .service-modal img {
   margin-bottom:10px;
+}
+.service-modal p {
+  font-family:$opensans;
+  font-size:18px;
+}
+.service-modal .img-wrap {
+  text-align:center;
+  @media (max-width:767px) {
+    display:none;
+  }
 }
