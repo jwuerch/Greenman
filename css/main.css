@@ -26221,6 +26221,37 @@ h4.modal-title {
     #slide-3 {
       background-position-x: 60%; } }
 
+#slide-4 {
+  background-position: 0% 0%; }
+  #slide-4 h2 {
+    font-family: "Droid Serif", serif;
+    font-weight: 400;
+    font-size: 51px;
+    color: #4F5D1D;
+    letter-spacing: 0.53px;
+    line-height: 65px;
+    margin-bottom: 0; }
+  #slide-4 .icon-star3 {
+    font-size: 48px;
+    color: #FFDA00; }
+  #slide-4 .star-set {
+    margin-bottom: 20px; }
+  #slide-4 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: #444444;
+    letter-spacing: -0.22px;
+    line-height: 36px;
+    margin-bottom: 50px; }
+    #slide-4 p .author {
+      font-weight: 400; }
+  #slide-4 .btn-wrap {
+    text-align: right;
+    padding-right: 20px; }
+  @media (max-width: 1300px) {
+    #slide-4 {
+      background-position-x: 40%; } }
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 16px; }

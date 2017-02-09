@@ -116,3 +116,41 @@
     background-position-x:60%;
   }
 }
+#slide-4 {
+  background-position:0% 0%;
+  h2 {
+    font-family: $droid;
+    font-weight:400;
+    font-size: 51px;
+    color: #4F5D1D;
+    letter-spacing: 0.53px;
+    line-height: 65px;
+    margin-bottom:0;
+  }
+  .icon-star3 {
+    font-size:48px;
+    color:#FFDA00;
+  }
+  .star-set {
+    margin-bottom:20px;
+  }
+  p {
+    font-family: $opensans;
+    font-size: 24px;
+    color: #444444;
+    letter-spacing: -0.22px;
+    line-height: 36px;
+    margin-bottom:50px;
+    .author {
+      font-weight:400;
+    }
+  }
+  .btn-wrap {
+    text-align:right;
+    padding-right:20px;
+  }
+  @media (max-width:1300px) {
+    background-position-x:40%;
+  }
+
+}
