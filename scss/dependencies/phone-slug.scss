@@ -3,18 +3,52 @@
 $new-text-color:red;
 $new-text-hotline-color:white;
 $old-text-color:green;
-$old-text-hotline-color:white;
+$old-text-hotline-color:red;
 
 
 .phone-slug-1 {
   a:hover {
     text-decoration:none;
   }
-  background:blue;
-  padding:20px 0;
+  width:100%;
+  background:transparent;
+  position:absolute;
+  z-index:5;
+  margin-top:-75px;
+  @media (max-width:991px) {
+    z-index:initial;
+    position:relative;
+    margin-top:0;
+  }
+  @media (max-width:767px) {
+    padding:20px 0 0px 0;
+    background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%);
+  }
+  @media (max-width:480px) {
+    .row {
+      margin:0;
+    }
+  }
+  > .container {
+    background: #FAEAD7;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 0 11px 0 11px;
+    padding:30px 0 20px 0;
+    @media (max-width:991px) {
+      box-shadow:none;
+      border:none;
+    }
+    @media (max-width:767px) {
+      background:none;
+      width:100%;
+      padding:20px 0;
+    }
+
+  }
   .col-1 {
     text-align:right;
     padding-right:20px;
+
     @media (max-width:767px) {
       padding:0;
       text-align:center;
@@ -31,18 +65,96 @@ $old-text-hotline-color:white;
     }
   }
   .new-text {
-    color:$new-text-color;
-    margin-bottom:0;
+    font-weight:400;
+    margin-bottom:-5px;
+    margin-top:-5px;
+    font-family: $droid;
+    font-size: 17px;
+    color: #444444;
+    @media (max-width:767px) {
+      margin-bottom:-12px;
+    }
   }
   .new-hotline {
-    color:$new-text-hotline-color;
+    font-family: $lato;
+    font-weight:900;
+    font-size: 42px;
+    color: #444444;
+    @media (max-width:480px) {
+      font-size:36px;
+      margin:5px 0;
+    }
   }
   .old-text {
-    color:$old-text-color;
     margin-bottom:0;
+    color: #444444;
+    letter-spacing: 0;
+    line-height: 48px;
+    font-family: $droid;
+    font-size: 20px;
+
   }
   .old-hotline {
-    color:$old-text-hotline-color;
+    color:#444444;
+    position:relative;
     font-weight:700;
+    @media (max-width:767px) {
+      top:-20px;
+
+    }
   }
+  .button {
+    @media (max-width:991px) {
+      max-width:300px;
+      font-size:18px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      align-self:center;
+      margin-top:10px;
+
+    }
+    @media (max-width:767px) {
+      margin:0 auto;
+    }
+    @media (max-width:480px) {
+      max-width:250px;
+      font-size:16px;
+    }
+  }
+  @media (max-width:991px) {
+    background: #FAEAD7;
+    .container {
+      box-shadow:none;
+    }
+  }
+
+}
+#phone-slug-2 {
+  padding:10px 0;
+  background:#FFF;
+  position:relative;
+  background: #FFFFFF;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
+  .col-2 {
+    border-left:0;
+  }
+  > .container {
+    border:none;
+    position:relative;
+    box-shadow:none;
+  }
+}
+.icon-angle-down {
+  background:#277D86;
+  display:flex;
+  height:40px;
+  width:40px;
+  justify-content:center;
+  align-items:center;
+  color:#FFF;
+  border-radius:9999px;
+}
+.one-page-arrow {
+  top:-20px;
 }

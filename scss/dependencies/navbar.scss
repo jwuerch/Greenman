@@ -71,3 +71,40 @@ body.stretched #header.full-header .container {
     padding:3px 0;
   }
 }
+@media (max-width:767px) {
+  body.stretched #header.full-header .container {
+    width:100% !important;
+    margin:0;
+  }
+  body:not(.top-search-open) #primary-menu-trigger {
+    float:right;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  #logo img {
+    padding:10px 0;
+
+  }
+
+}
+@media (max-width:600px) {
+  #logo {
+    display:flex;
+    justify-content:flex-end;
+  }
+
+}
+@media (max-width:480px) {
+  #logo img {
+    padding:14px 0;
+  }
+}
+@media (max-width:450px) {
+  #logo img {
+    padding:20px 0;
+  }
+}
+#primary-menu-trigger {
+  color:#222;
+}
