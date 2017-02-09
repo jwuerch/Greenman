@@ -1,0 +1,73 @@
+$nav-color: #5A5A5A;
+$nav-1-color: #FF7320;
+$nav-2-color: #73862F;
+$nav-3-color: #277D86;
+$font-weight: 700;
+$font-weight-first-three: 700;
+$font-size:18px;
+
+body.stretched #header.full-header .container {
+  padding-right:0;
+  @media (max-width:1250px) {
+    padding-left:0;
+  }
+}
+#primary-menu > ul > li {
+  a {
+    color:$nav-color;
+    font-weight:$font-weight;
+    font-size:16px;
+    font-family:$lato;
+    @media (max-width:1400px) {
+      font-size:14px;
+      padding-left:10px;
+      padding-right:10px;
+    }
+    @media (max-width:1250px) {
+      padding-left:7.5px;
+      padding-right:7.5px;
+      font-size:12px;
+
+    }
+    @media (max-width:991px) {
+      font-size:16px;
+    }
+  }
+  .nav-1 {
+    color:$nav-1-color;
+  }
+  .nav-2 {
+    color:$nav-2-color;
+  }
+  .nav-3 {
+    color:$nav-3-color;
+  }
+  .nav-1, .nav-2, .nav-3 {
+    font-weight:$font-weight-first-three;
+  }
+}
+
+#header.full-header #logo {
+  margin-right:15px;
+  padding-right:0;
+}
+
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+  height:100px;
+}
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+  padding-top:38px;
+  padding-bottom:38px;
+}
+#primary-menu-trigger {
+  font-size:25px;
+}
+#logo img {
+  padding:2.5px 0;
+  @media (max-width:1100px) {
+    padding:12px 0;
+  }
+  @media (max-width:991px) {
+    padding:3px 0;
+  }
+}

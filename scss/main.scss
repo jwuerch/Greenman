@@ -1,0 +1,94 @@
+$primary-font: 'Lato', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$third-font: 'Roboto Condensed', sans-serif;
+$button-color: orange;
+$button-hover:gray;
+$lato: 'Lato', sans-serif;
+$droid: 'Droid Serif', serif;
+$montserrat:'Montserrat', sans-serif;
+
+// Canvas Dependencies //
+
+@import "dependencies/bootstrap.scss";
+@import "dependencies/style.scss";
+@import "dependencies/swiper.scss";
+@import "../css/font-icons";
+@import "dependencies/animate.scss";
+@import "dependencies/responsive.scss";
+@import "dependencies/navbar.scss";
+@import "dependencies/footer.scss";
+@import "dependencies/phone-slug.scss";
+@import "dependencies/contact-modal.scss";
+@import "dependencies/specials.scss";
+@import "dependencies/location-section.scss";
+@import "dependencies/slides.scss";
+
+
+// End Canvas Dependencies //
+
+
+// Variables to define first //
+
+
+
+// CSS //
+
+body {
+  font-family:$primary-font;
+  font-size:16px;
+}
+
+h1 {
+  font-size:64px;
+}
+
+h2 {
+  font-size:48px;
+}
+
+h3 {
+  font-size:36px;
+}
+
+h4 {
+  font-size:28px;
+}
+
+h5 {
+  font-size:24px;
+}
+
+h6 {
+  font-size:20px;
+}
+
+p {
+  font-size:18px;
+}
+
+.button {
+  background:$button-color;
+  padding-top:2px;
+  background: #FF7320;
+  border-radius: 3px;
+  border:none;
+}
+.button:hover {
+  background:#DF651C;
+}
+.content-wrap {
+  padding:0;
+}
+
+section h2 {
+  font-size:48px;
+  @media (max-width:767px) {
+    font-size:40px;
+    line-height:50px;
+
+  }
+  @media (max-width:480px) {
+    font-size:32px;
+    line-height:36px;
+  }
+}

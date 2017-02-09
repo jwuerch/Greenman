@@ -1,0 +1,48 @@
+/** PHONE SLUG **/
+
+$new-text-color:red;
+$new-text-hotline-color:white;
+$old-text-color:green;
+$old-text-hotline-color:white;
+
+
+.phone-slug-1 {
+  a:hover {
+    text-decoration:none;
+  }
+  background:blue;
+  padding:20px 0;
+  .col-1 {
+    text-align:right;
+    padding-right:20px;
+    @media (max-width:767px) {
+      padding:0;
+      text-align:center;
+    }
+  }
+  .col-2 {
+    text-align:left;
+    border-left:2px solid #000;
+    padding-left:20px;
+    @media (max-width:767px) {
+      border-left:none;
+      text-align:center;
+      padding:0;
+    }
+  }
+  .new-text {
+    color:$new-text-color;
+    margin-bottom:0;
+  }
+  .new-hotline {
+    color:$new-text-hotline-color;
+  }
+  .old-text {
+    color:$old-text-color;
+    margin-bottom:0;
+  }
+  .old-hotline {
+    color:$old-text-hotline-color;
+    font-weight:700;
+  }
+}

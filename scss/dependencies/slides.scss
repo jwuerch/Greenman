@@ -1,0 +1,118 @@
+#slider, .swiper-container, .swiper-wrapper, .swiper-slide {
+  max-height:800px;
+}
+#slide-1, #slide-2, #slide-3 {
+  background-size:cover;
+}
+#slide-1 {
+  background-position:0% 0%;
+  @media (max-width:1200px) {
+    background-position-x:50%;
+  }
+
+  h2 {
+    font-family: $droid;
+    font-weight:700;
+    font-size: 77.76px;
+    color: #4C5A19;
+    letter-spacing: 0;
+    line-height: 76px;
+    .h-2 {
+      font-weight:400;
+      color:#5F3816;
+    }
+  }
+  h3 {
+    font-family: $droid;
+    font-weight:700;
+    font-size: 31.5px;
+    color: #388890;
+    letter-spacing: 0.91px;
+    line-height: 86px;
+    margin-top:10px;
+    margin-bottom:0px;
+  }
+
+}
+#slide-2 {
+  background-position:0% 0%;
+  .btn-wrap {
+    text-align:right;
+    @media (max-width:1200px) {
+      padding-right:20px;
+
+    }
+  }
+  h2 {
+    font-family: $droid;
+    font-weight:700;
+    font-size: 77.76px;
+    color: #4C5A19;
+    letter-spacing: 0.81px;
+    line-height: 86px;
+    margin-bottom:-10px;
+  }
+  h3 {
+    font-family: $droid;
+    font-weight:700;
+    font-size: 40px;
+    color: #2F828B;
+    letter-spacing: 1.16px;
+    line-height: 86px;
+  }
+  h4 {
+    font-family: $montserrat;
+    font-weight:400;
+    font-size: 51px;
+    color: #5F3917;
+    letter-spacing: -0.33px;
+    line-height: 39px;
+  }
+  @media (max-width:1450px) {
+    h2 {
+      font-size:62px;
+    }
+    h3 {
+      font-size:32px;
+    }
+    h4 {
+      font-size:44px;
+    }
+  }
+}
+#slide-3 {
+  background-position:0% 0%;
+  h2 {
+    font-family: $droid;
+    font-size: 77.76px;
+    color: #4C5A19;
+    font-weight:400;
+    margin-bottom:0;
+  }
+  h3 {
+    font-family: $droid;
+    font-size: 38px;
+    color: #2E828A;
+    letter-spacing: 1.1px;
+    line-height: 86px;
+    font-weight:700;
+  }
+  h4 {
+    font-family: $montserrat;
+    font-weight:400;
+    font-size: 37px;
+    color: #5F3917;
+    letter-spacing: -0.24px;
+    line-height: 39px;
+    margin-bottom:100px;
+  }
+  .btn-wrap {
+    text-align:right;
+    @media (max-width:1200px) {
+      padding-right:20px;
+    }
+  }
+  @media (max-width:1200px) {
+    background-position-x:60%;
+  }
+}
