@@ -42,6 +42,6 @@
         }
     });
     $('.video-modal .close').click(function(){
-        $('iframe').attr('src', $('iframe').attr('src'));
+        $('.video-wrap iframe').attr('src', $('.video-wrap iframe').attr('src'));
     });
 })(jQuery);
