@@ -14,4 +14,24 @@
     letter-spacing: -0.5px;
     margin-top:10px;
   }
+  #oc-portfolio-3 {
+    .owl-prev, .owl-next {
+      opacity:1 !important;
+      background:#277D86;
+      color:#FFF;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      border:none;
+      &:hover {
+        background:#216870 !important
+      }
+    }
+    .owl-prev {
+      left:-18px;
+    }
+    .owl-next {
+      right:-18px;
+    }
+  }
 }

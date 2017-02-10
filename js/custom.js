@@ -41,7 +41,7 @@
             $('ul.mobile-primary-menu').toggleClass("show");
         }
     });
-    $('#video-modal .close').click(function(){
-        $('.video-wrap iframe').attr('src', $('.video-wrap iframe').attr('src'));
+    $('.video-modal .close').click(function(){
+        $('iframe').attr('src', $('iframe').attr('src'));
     });
 })(jQuery);
