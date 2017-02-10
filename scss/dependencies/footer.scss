@@ -48,3 +48,14 @@ a.social-icon.si-colored {
   justify-content:center;
   position:relative;
 }
+#copyrights {
+  background:#277D86;
+  p {
+    font-family: $lato;
+    font-weight:400;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+}

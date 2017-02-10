@@ -56,7 +56,7 @@ $old-text-hotline-color:red;
   }
   .col-2 {
     text-align:left;
-    border-left:2px solid #000;
+    border-left:2px solid #764A1D;
     padding-left:20px;
     @media (max-width:767px) {
       border-left:none;
@@ -71,6 +71,7 @@ $old-text-hotline-color:red;
     font-family: $droid;
     font-size: 17px;
     color: #444444;
+
     @media (max-width:767px) {
       margin-bottom:-12px;
     }
@@ -130,21 +131,7 @@ $old-text-hotline-color:red;
   }
 
 }
-#phone-slug-2 {
-  padding:10px 0;
-  background:#FFF;
-  position:relative;
-  background: #FFFFFF;
-  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
-  .col-2 {
-    border-left:0;
-  }
-  > .container {
-    border:none;
-    position:relative;
-    box-shadow:none;
-  }
-}
+
 .icon-angle-down {
   background:#277D86;
   display:flex;
@@ -157,4 +144,51 @@ $old-text-hotline-color:red;
 }
 .one-page-arrow {
   top:-20px;
+}
+#phone-slug-2 {
+  padding:50px 0;
+  background:#FAEAD7;
+  .col-1 {
+    text-align:right;
+  }
+  .col-2 {
+    text-align:left;
+    border-left:2px solid #764A1D;
+    padding-left:15px;
+  }
+  .new-text {
+    font-family: $montserrat;
+    font-weight:700;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #444444;
+    margin-bottom:-10px;
+    margin-top:-5px;
+
+  }
+  .new-hotline {
+    font-family: $lato;
+    font-weight:900;
+    font-size: 42px;
+    color: #444444;
+  }
+  a:hover {
+    text-decoration:none;
+  }
+  @media (max-width:767px) {
+    .col-1, .col-2 {
+      text-align:center;
+      padding:0;
+    }
+
+  }
+  @media (max-width:480px) {
+    .button {
+      max-width:300px;
+      display:flex;
+      justify-content:center;
+      align-items: center;
+    }
+  }
+
 }

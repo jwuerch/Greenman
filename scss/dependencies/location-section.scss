@@ -1,85 +1,142 @@
+#contact-2 {
+  p {
+    @media (max-width:991px) {
+      width:100%;
+      text-align:center;
+    }
 
-/** CONTACT **/
+  }
+  a {
+    &:hover {
+      text-decoration:none;
+    }
+  }
+  padding:20px 0;
+  .col-1, .col-2, .col-3 {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+  }
+  .col-1 {
+    p {
+      font-family: $opensans;
+      font-size: 17px;
+      color: #666564;
+      letter-spacing: 0;
+      line-height: 25px;
+      margin-bottom:0;
+      @media (max-width:480px) {
+        font-size:16px;
+      }
+    }
+    img {
+      margin-bottom:10px;
+    }
+    .p-2 {
+      margin-bottom:20px;
+    }
+    .p-3 {
+      font-family: $lato;
+      font-size: 16px;
+      color: #277D86;
+      letter-spacing: 0;
+      line-height: 25px;
+      text-decoration:underline;
+      a {
+        color:#277D86;
+        &:hover {
+          text-decoration:underline;
+        }
+      }
+    }
+  }
+  .col-2 {
+    padding:30px 0;
+    .p-1 {
+      font-family: $merriweather;
+      font-size: 17px;
+      color: #474747;
+      margin-bottom:-10px;
+    }
+    .p-2 {
+      font-family: $lato;
+      font-weight:700;
+      font-size: 42px;
+      margin-bottom:0px;
+      @media (max-width:480px) {
+        font-size:32px;
+      }
+      a {
+        color: #575757;
 
-$p-color: #6F6D6A;
-$click-map-color:#846A20;
+      }
+    }
+    .p-3 {
+      font-family: $merriweather;
+      font-size: 16px;
+      color: #444444;
+      letter-spacing: 0;
+      line-height: 48px;
+      a {
+        color:#444;
+      }
+    }
+    .button {
+      max-width:280px;
+      font-size:16px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+  }
+  .col-3 {
+    .container {
+      @media (max-width:480px) {
+        width:100% !important;
+      }
+    }
+    .x-col-2 {
+      @media (max-width:991px) {
+        max-width:250px;
+      }
+      @media (max-width:480px) {
+        max-width:350px;
+      }
+    }
+    h6 {
+      margin-top:30px;
+      font-family: $droid;
+      font-weight:400;
+      font-size: 28px;
+      color: #737271;
+      letter-spacing: 0;
+      line-height: 25px;
+      width:100%;
+      text-align:center;
+      @media (max-width:480px) {
+        margin-bottom:0;
+      }
+    }
+    .schedule-wrap {
+      display:flex;
+      justify-content:center;
+      padding:0;
 
-
-#contact-form-overlay-mini {
-  padding-top:15px;
-  padding-bottom:15px;
-}
-#contact img {
-  margin-bottom:20px;
-}
-#contact p {
-  color:$p-color;
-  font-size:16px;
-  line-height:21px;
-}
-
-#contact .click-map  {
-  color:$click-map-color;
-  margin-top:-5px;
-  font-size:16px;
-  text-decoration:underline;
-}
-#contact .text-phone-1 {
-  font-size: 36px;
-  font-weight:900;
-  font-family: 'Lato', sans-serif;
-  color: #CBA357;
-  margin-bottom:20px;
-}
-.device-xxs #contact .text-phone-1 {
-  font-size:26px;
-}
-.device-xxs #contact .text-phone-2 {
-  font-size:23px;
-}
-.device-xxs #contact .button {
-  font-size:16px;
-  width:100%;
-  padding-left:15px;
-  padding-right:15px;
-}
-
-#contact .text-phone-2 {
-  font-size: 26px;
-  font-weight:900;
-  font-family: 'Lato', sans-serif;
-  color: #CBA357;
-}
-.patient-hotline {
-  margin-bottom:7px;
-}
-#contact .button {
-  width:100%;
-  letter-spacing:0;
-  font-size:18px;
-  margin-bottom:20px;
-  padding-top:2px;
-}
-#contact-form-overlay-mini > div:nth-child(2) > a.click-map:hover {
-  color:#846A20;
-}
-#contact-form-overlay-mini {
-  border-radius: 12px;
-}
-#contact-form-overlay-mini > div:nth-child(2) > a:nth-child(5):hover, #contact-form-overlay-mini > div:nth-child(2) > a:nth-child(8):hover {
-  text-decoration:none;
+      p {
+        margin-bottom:0;
+        @media (max-width:480px) {
+          font-size:16px;
+          padding:0;
+        }
+      }
+    }
+  }
 }
 #contact {
-  max-height:600px;
+  height:auto !important;
+  margin-top:30px;
 }
-.device-xxs #contact-form-overlay-mini {
-  padding-left:15px;
-  padding-right:15px;
-}
-.device-xs #contact-form-overlay-mini, .device-xxs #contact-form-overlay-mini {
-  box-shadow:none;
-}
-#google-map {
-  height:100%;
-  border-bottom:5px solid #FFF;
+.form-control {
+  font-size:16px;
 }

@@ -7,6 +7,8 @@ $lato: 'Lato', sans-serif;
 $droid: 'Droid Serif', serif;
 $montserrat:'Montserrat', sans-serif;
 $opensans: 'Open Sans', sans-serif;
+$roboto:'Roboto Condensed', sans-serif;
+$merriweather: 'Merriweather', sans-serif;
 
 // Canvas Dependencies //
 
@@ -26,6 +28,14 @@ $opensans: 'Open Sans', sans-serif;
 @import "dependencies/meet-the-team.scss";
 @import "dependencies/service-modal.scss";
 @import "dependencies/watch-video.scss";
+@import "dependencies/reviews.scss";
+@import "dependencies/video-testimonials.scss";
+@import "dependencies/no-insurance.scss";
+@import "dependencies/services.scss";
+@import "dependencies/smile-gallery.scss";
+@import "dependencies/office-tour.scss";
+@import "dependencies/patient-forms.scss";
+@import "dependencies/care-credit.scss";
 
 
 // End Canvas Dependencies //
@@ -98,5 +108,39 @@ section h2 {
   @media (max-width:480px) {
     font-size:32px;
     line-height:36px;
+  }
+}
+
+.button-2 {
+  background:none;
+  background: #FFFFFF;
+  border: 2px solid #A2AF70;
+  border-radius: 3px;
+  color:#A2AF70;
+  font-size:16px;
+  width:350px;
+  &:hover {
+    background:#E0E0E0;
+    color:#A2AF70;
+    text-shadow:none;
+  }
+  @media (max-width:1200px) {
+    width:300px;
+    font-size:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+  @media (max-width:991px) {
+    width:400px;
+    margin:0 auto;
+    margin-bottom:15px;
+    font-size:16px;
+  }
+  @media (max-width:480px) {
+    width:285px;
+    font-size:14px;
   }
 }

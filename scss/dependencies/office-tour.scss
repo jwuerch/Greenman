@@ -1,0 +1,20 @@
+#office-tour {
+  padding:60px 0;
+  background:#FFF;
+
+  h2 {
+    font-family: $droid;
+    font-weight:400;
+    font-size: 48px;
+    color: #A2AF70;
+    @media (max-width:480px) {
+      font-size:38px;
+    }
+  }
+  p {
+    font-family: $opensans;
+    font-size: 18px;
+    color: #393937;
+    letter-spacing: -0.25px;
+  }
+}

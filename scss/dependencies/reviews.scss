@@ -1,0 +1,46 @@
+#reviews {
+  background:url('../images/reviews-bg.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding:60px 0;
+  h2 {
+    font-family: $droid;
+    font-size: 48px;
+    font-weight:400;
+    color: #FFFFFF;
+    margin-bottom:40px;
+  }
+  @media (max-width:991px) {
+    h2 {
+      font-size:40px;
+    }
+  }
+  @media (max-width:500px) {
+    h2 {
+      font-size:32px;
+    }
+  }
+  iframe {
+    padding-bottom:30px;
+    @media (max-width:600px) {
+    max-height:380px;
+  }
+  }
+  .bf-dv {
+    color:#FFF;
+  }
+  .bf-spn {
+    font-family: $roboto;
+    font-weight:400;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: -0.2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.80);
+    a {
+      color:#FFF !important;
+      &:hover {
+        text-decoration:underline !important;
+      }
+    }
+  }
+}

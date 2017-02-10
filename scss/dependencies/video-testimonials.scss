@@ -1,0 +1,17 @@
+#video-testimonials {
+  background:url('../images/video-testimonials-bg.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  padding:50px 0 20px 0;
+  img {
+    border-radius:8px;
+  }
+  h4 {
+    font-family: $droid;
+    font-size: 20px;
+    color: #6E6E6D;
+    letter-spacing: -0.5px;
+    margin-top:10px;
+  }
+}

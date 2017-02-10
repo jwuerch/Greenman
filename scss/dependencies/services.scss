@@ -1,0 +1,204 @@
+#services, #services-2, #services-3, #services-4 {
+  padding:40px 0 80px 0;
+  h2 {
+    font-family: $droid;
+    font-size: 48px;
+    color: #A2AF70;
+    line-height: 61px;
+    font-weight:400;
+
+  }
+  p, li {
+    font-family: $opensans;
+    font-size: 18px;
+    color: #737270;
+  }
+  .p-2 {
+    font-weight:700;
+  }
+  li {
+
+  }
+  @media (max-width:1200px) {
+    background:none;
+
+    @media (max-width:480px) {
+      .button {
+        max-width:300px;
+        font-size:16px;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+#services {
+  padding:40px 0 40px 0;
+  text-align:center;
+  h2 {
+    font-family: $droid;
+    font-size: 48px;
+    color: #A2AF70;
+    line-height: 61px;
+    font-weight:400;
+    @media (max-width:767px) {
+      font-size:40px;
+    }
+    @media (max-width:480px) {
+      font-size:36px;
+      line-height:45px;
+
+    }
+  }
+  p {
+    font-family: $opensans;
+    font-size: 18px;
+    color: #737270;
+    a {
+      color:#277D86;
+      text-decoration:underline;
+    }
+  }
+
+}
+#services-2 {
+  background:url('../images/services/apnea.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  h2 {
+
+    @media (max-width:767px) {
+      font-size:40px;
+    }
+    @media (max-width:480px) {
+      font-size:36px;
+      line-height:45px;
+
+    }
+  }
+  @media (max-width:1200px) {
+    background:none;
+    padding-bottom:0;
+  }
+}
+
+#services-3 {
+  background:url('../images/services/sedation.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  .list {
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    padding-left:20px;
+    flex-wrap:wrap;
+
+    @media (max-width:1200px) {
+      width:50%;
+    }
+    @media (max-width:991px) {
+      width:75%;
+    }
+  }
+  h2 {
+    @media (max-width:767px) {
+      font-size:40px;
+    }
+    @media (max-width:480px) {
+      font-size:36px;
+      line-height:45px;
+
+    }
+  }
+  .button {
+    margin-top:100px;
+    margin-bottom:100px;
+    @media (max-width:1200px) {
+      margin-top:50px;
+      margin-bottom:0;
+    }
+  }
+  @media (max-width:1200px) {
+    background:none;
+    padding-bottom:0;
+  }
+}
+#services-4 {
+  background:url('../images/services/implants.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding-bottom:150px;
+  @media (max-width:1200px) {
+    padding-bottom:0px;
+    background:none;
+  }
+  h2 {
+    @media (max-width:767px) {
+      font-size:40px;
+    }
+    @media (max-width:480px) {
+      font-size:36px;
+      line-height:45px;
+    }
+  }
+}
+
+
+
+.services-4-mobile, .services-3-mobile, .services-2-mobile {
+  img {
+    width:100%;
+  }
+}
+#services-carousel {
+  background: #FAEAD7;
+  padding:60px 0;
+  h2 {
+    font-family: $droid;
+    font-weight:400;
+    font-size: 48px;
+    color: #A2AF70;
+    margin-bottom:20px;
+    @media (max-width:480px) {
+      font-size:38px;
+    }
+  }
+  p:nth-of-type(1) {
+    font-family: $opensans;
+    font-size: 20px;
+    color: #737270;
+    @media (max-width:480px) {
+      font-size:16px;
+    }
+  }
+  img {
+    border-radius:23px;
+  }
+  h4 {
+    font-family: $droid;
+    font-weight:400;
+    margin-top:10px;
+    font-size: 20px;
+    color: #6E6E6D;
+  }
+  .owl-prev, .owl-next {
+    opacity:1 !important;
+    background:#277D86;
+    color:#FFF;
+    border:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    &:hover {
+      background:#216870 !important;
+    }
+  }
+  .owl-prev {
+    left:-18px;
+  }
+  .owl-next {
+    right:-18px;
+  }
+}
