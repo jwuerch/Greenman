@@ -26369,7 +26369,8 @@ h4.modal-title {
     line-height: 76px; }
     #slide-1 h2 .h-2 {
       font-weight: 400;
-      color: #5F3816; }
+      color: #5F3816;
+      font-family: 'Helvetica', sans-serif; }
   #slide-1 h3 {
     font-family: "Droid Serif", serif;
     font-weight: 700;
