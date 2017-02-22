@@ -123,6 +123,9 @@
     $('#sedation-video .close').click(function() {
         $('#sedation-video .video-wrap iframe').attr('src', $('#sedation-video .video-wrap iframe').attr('src'));
     })
+    $('#implant-video .close').click(function() {
+        $('#implant-video .video-wrap iframe').attr('src', $('#implant-video .video-wrap iframe').attr('src'));
+    })
 
 
 

@@ -25769,6 +25769,10 @@ body.stretched #header.full-header .container {
       padding-left: 7.5px;
       padding-right: 7.5px;
       font-size: 12px; } }
+  @media (max-width: 1030px) {
+    #primary-menu > ul > li a {
+      padding-left: 5px;
+      padding-right: 5px; } }
   @media (max-width: 991px) {
     #primary-menu > ul > li a {
       font-size: 16px; } }
@@ -25832,6 +25836,11 @@ body.stretched #header.full-header .container {
 @media (max-width: 450px) {
   #logo img {
     padding: 20px 0; } }
+
+@media (max-width: 399px) {
+  #logo img {
+    padding: 30px 0;
+    margin-right: 40px; } }
 
 #primary-menu-trigger {
   color: #222; }
@@ -26363,10 +26372,10 @@ h4.modal-title {
   #slide-1 h2 {
     font-family: "Droid Serif", serif;
     font-weight: 700;
-    font-size: 77.76px;
+    font-size: 60px;
     color: #4C5A19;
     letter-spacing: 0;
-    line-height: 76px; }
+    line-height: 60px; }
     #slide-1 h2 .h-2 {
       font-weight: 400;
       color: #5F3816;
@@ -26378,7 +26387,7 @@ h4.modal-title {
     color: #388890;
     letter-spacing: 0.91px;
     line-height: 86px;
-    margin-top: 10px;
+    margin-top: -20px;
     margin-bottom: 0px; }
 
 #slide-2 {
@@ -26440,7 +26449,7 @@ h4.modal-title {
     color: #5F3917;
     letter-spacing: -0.24px;
     line-height: 39px;
-    margin-bottom: 100px; }
+    margin-bottom: 30px; }
   #slide-3 .btn-wrap {
     text-align: right; }
     @media (max-width: 1200px) {
@@ -26471,7 +26480,7 @@ h4.modal-title {
     color: #444444;
     letter-spacing: -0.22px;
     line-height: 36px;
-    margin-bottom: 50px; }
+    margin-bottom: 20px; }
     #slide-4 p .author {
       font-weight: 400; }
   #slide-4 .btn-wrap {
@@ -26544,12 +26553,15 @@ h4.modal-title {
   padding: 60px 0 40px 0;
   background: rgba(122, 132, 86, 0.2);
   box-shadow: inset 0 1px 9px 0 rgba(0, 0, 0, 0.15); }
+  #meet-the-team-2 p {
+    font-family: "Droid Serif", serif; }
   #meet-the-team-2 h2 {
     font-family: "Droid Serif", serif;
     font-weight: 400;
     font-size: 48px;
     color: #A2AF70;
     letter-spacing: 1.5px;
+    margin-bottom: 0;
     line-height: 61px; }
     @media (max-width: 480px) {
       #meet-the-team-2 h2 {
@@ -26639,6 +26651,7 @@ h4.modal-title {
 #watch-video {
   background: url("../images/video-bg.jpg");
   background-size: cover;
+  background-attachment: fixed;
   height: 800px; }
   #watch-video .center {
     top: 44%;
@@ -26715,6 +26728,19 @@ h4.modal-title {
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 50px 0 20px 0; }
+  #video-testimonials h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Droid Serif", serif;
+    color: #A2AF70;
+    font-weight: 400; }
+  #video-testimonials p {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: "Droid Serif", serif;
+    color: #494948;
+    font-weight: 400; }
   #video-testimonials img {
     border-radius: 8px; }
   #video-testimonials h4 {

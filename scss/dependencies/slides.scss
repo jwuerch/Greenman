@@ -13,10 +13,10 @@
   h2 {
     font-family: $droid;
     font-weight:700;
-    font-size: 77.76px;
+    font-size: 60px;
     color: #4C5A19;
     letter-spacing: 0;
-    line-height: 76px;
+    line-height: 60px;
     .h-2 {
       font-weight:400;
       color:#5F3816;
@@ -30,7 +30,7 @@
     color: #388890;
     letter-spacing: 0.91px;
     line-height: 86px;
-    margin-top:10px;
+    margin-top:-20px;
     margin-bottom:0px;
   }
 
@@ -105,7 +105,7 @@
     color: #5F3917;
     letter-spacing: -0.24px;
     line-height: 39px;
-    margin-bottom:100px;
+    margin-bottom:30px;
   }
   .btn-wrap {
     text-align:right;
@@ -141,7 +141,7 @@
     color: #444444;
     letter-spacing: -0.22px;
     line-height: 36px;
-    margin-bottom:50px;
+    margin-bottom:20px;
     .author {
       font-weight:400;
     }
